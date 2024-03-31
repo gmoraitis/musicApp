@@ -1,0 +1,25 @@
+#drumSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#bassSection {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#leadSection {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.row button {
+    flex: 1;
+}

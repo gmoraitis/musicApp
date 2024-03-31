@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">    
+    <title>Music App</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.26/Tone.js"></script>
+</head>
+
+<body>
+    <h1>Music App</h1>
+
+    <!-- Drums Section -->
+    <div id="drumSection" style="display: none;">
+        <h2>Drums Section</h2>
+        <div id="kickGrid">Kick</div>
+        <div id="snareGrid">Snare</div>
+        <div id="hihatGrid">Hi-Hat</div>
+    </div>  
+
+    <!-- Bass Section -->
+    <div id="bassSection" style="display: none;">
+        <h2>Bass Section</h2>
+        <div id="bassGrid">Bass</div>
+    </div>
+
+    <!-- Lead Section -->
+    <div id="leadSection" style="display: none;">
+        <h2>Lead Section</h2>
+        <div id="leadGrid">Lead</div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div>
+        <button id="drumButton">Drums Section</button>
+        <button id="bassButton">Bass Section</button>
+        <button id="leadButton">Lead Section</button>
+    </div>
+
+    <!-- Play and Stop Buttons -->
+    <div>
+        <button id="playButton">Play</button>
+        <button id="stopButton">Stop</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
